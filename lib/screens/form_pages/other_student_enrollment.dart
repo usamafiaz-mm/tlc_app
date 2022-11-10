@@ -27,6 +27,7 @@ class OtherStudentEnrollment extends StatelessWidget {
           style: Theme.of(context).textTheme.labelMedium,
         ),
         CustomReactiveRadioGroup(
+            readOnly: readOnly,
             formControl:
                 FormInstance.form.control("page_6.minority_students_exist")
                     as FormControl<String>),

@@ -94,6 +94,7 @@ class RegistrationInformation extends StatelessWidget {
         CustomReactiveRadioGroup(
           formControl: FormInstance.form.control("page_2.affiliation_status")
               as FormControl<String>,
+          readOnly: readOnly,
         ),
         ReactiveValueListenableBuilder(
           formControl: FormInstance.form.control("page_2.affiliation_status"),

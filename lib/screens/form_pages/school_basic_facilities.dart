@@ -29,6 +29,7 @@ class SchoolBasicFacilities extends StatelessWidget {
         CustomReactiveRadioGroup(
           formControl: FormInstance.form.control("page_3.drinking_water")
               as FormControl<String>,
+          readOnly: readOnly,
         ),
         SizedBox(
           height: 16,
@@ -40,6 +41,7 @@ class SchoolBasicFacilities extends StatelessWidget {
         CustomReactiveRadioGroup(
           formControl: FormInstance.form.control("page_3.boundary_wall")
               as FormControl<String>,
+          readOnly: readOnly,
         ),
         SizedBox(
           height: 16,
@@ -51,6 +53,7 @@ class SchoolBasicFacilities extends StatelessWidget {
         CustomReactiveRadioGroup(
           formControl: FormInstance.form.control("page_3.electricity")
               as FormControl<String>,
+          readOnly: readOnly,
         ),
         SizedBox(
           height: 16,
@@ -62,6 +65,7 @@ class SchoolBasicFacilities extends StatelessWidget {
         CustomReactiveRadioGroup(
           formControl:
               FormInstance.form.control("page_3.toilet") as FormControl<String>,
+          readOnly: readOnly,
         ),
         SizedBox(
           height: 16,
@@ -73,6 +77,7 @@ class SchoolBasicFacilities extends StatelessWidget {
         CustomReactiveRadioGroup(
           formControl: FormInstance.form.control("page_3.staff_room")
               as FormControl<String>,
+          readOnly: readOnly,
         ),
         SizedBox(
           height: 16,
@@ -84,6 +89,7 @@ class SchoolBasicFacilities extends StatelessWidget {
         CustomReactiveRadioGroup(
           formControl: FormInstance.form.control("page_3.play_ground")
               as FormControl<String>,
+          readOnly: readOnly,
         ),
         SizedBox(
           height: 16,
@@ -95,6 +101,7 @@ class SchoolBasicFacilities extends StatelessWidget {
         CustomReactiveRadioGroup(
           formControl: FormInstance.form.control("page_3.ups_generator")
               as FormControl<String>,
+          readOnly: readOnly,
         ),
         SizedBox(
           height: 16,
@@ -106,6 +113,7 @@ class SchoolBasicFacilities extends StatelessWidget {
         CustomReactiveRadioGroup(
           formControl: FormInstance.form.control("page_3.multi_purpose_hall")
               as FormControl<String>,
+          readOnly: readOnly,
         ),
         SizedBox(
           height: 16,
@@ -117,6 +125,7 @@ class SchoolBasicFacilities extends StatelessWidget {
         CustomReactiveRadioGroup(
           formControl: FormInstance.form.control("page_3.office_computer")
               as FormControl<String>,
+          readOnly: readOnly,
         ),
         SizedBox(
           height: 16,
@@ -128,6 +137,7 @@ class SchoolBasicFacilities extends StatelessWidget {
         CustomReactiveRadioGroup(
           formControl: FormInstance.form.control("page_3.science_lab")
               as FormControl<String>,
+          readOnly: readOnly,
         ),
         SizedBox(
           height: 16,
@@ -139,6 +149,7 @@ class SchoolBasicFacilities extends StatelessWidget {
         CustomReactiveRadioGroup(
           formControl: FormInstance.form.control("page_3.library")
               as FormControl<String>,
+          readOnly: readOnly,
         ),
         SizedBox(
           height: 16,
@@ -150,6 +161,7 @@ class SchoolBasicFacilities extends StatelessWidget {
         CustomReactiveRadioGroup(
           formControl: FormInstance.form.control("page_3.internet")
               as FormControl<String>,
+          readOnly: readOnly,
         ),
         SizedBox(
           height: 16,
@@ -161,6 +173,7 @@ class SchoolBasicFacilities extends StatelessWidget {
         CustomReactiveRadioGroup(
           formControl: FormInstance.form.control("page_3.transport_for_student")
               as FormControl<String>,
+          readOnly: readOnly,
         ),
       ],
     );
